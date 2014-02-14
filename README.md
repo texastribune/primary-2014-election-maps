@@ -1,0 +1,1 @@
+pip install https://github.com/texastribune/django-gistpage/tarball/master
