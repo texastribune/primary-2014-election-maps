@@ -1,0 +1,14 @@
+<script>
+
+$(function() {
+
+  if (window.devicePixelRatio > 1) {
+    var images = $('.candidate-map img');
+
+    $.each(images, function(i, v) {
+      v.src = v.src.replace('.png', '@2.png');
+    });
+  }
+});
+
+</script>
